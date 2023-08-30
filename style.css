@@ -1,0 +1,50 @@
+.main {
+     margin: auto;
+      
+    border-radius: 12px;
+       background: #000000;
+    width: fit-content;
+    text-align: center; 
+    padding: 2px;
+   font-size: 24px;
+}
+#inp {
+    width: 300px;
+    height: 80px;
+    background-color: #EBECF1;
+    border-radius: 24px 24px 10px 10px;
+    margin: 10px;
+    background-color: #000000a6;
+    color: #ffd900;
+    font-size: 30px;
+    border: none;
+    box-shadow: 0px 0px 6px #ffffff;
+}
+.zero{
+     color: #ffd900 !important;
+}
+.line {
+    margin-top: 5px;
+    text-size-adjust: 10px;
+}
+.line button {
+    margin: 10px ;
+    background-color: black;
+ box-shadow: 0px 0px 6px #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.equal{
+
+    color: #62ff77 !important; 
+}
+.opratore{
+ 
+        color: aqua !important; 
+}
