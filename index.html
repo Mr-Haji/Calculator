@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="./s-01-01-removebg-preview.png" />
+    <title>Calculator By Mr-Haji</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+
+    <!-- ============ CALCULATOR START ==================== -->
+
+   <section class="section">
+    <div class="main">
+        <div class="inpDev">
+            <input type="text" name=""  disabled id="inp" >
+        </div>
+       <dev class="btns">
+        <div class="line">
+            <button class="opratore" onclick="root()"><i class="fa-solid fa-square-root-variable"></i></button>
+            <button class="opratore" onclick="opr('%')">%</button>
+
+            <button class="opratore" onclick="del()"><i class="fa-solid fa-delete-left"
+                    style="color: #f78585;"></i></i></button>
+            <button class="zero" onclick="clearval()">AC</button>
+
+
+
+        </div>
+
+        <div class="line">
+            <button onclick="addVal(7)">7</button>
+            <button onclick="addVal(8)">8</button>
+            <button onclick="addVal(9)">9</button>
+            <button class="opratore" onclick="opr('/')"><i class="fa-solid fa-divide"></i></button>
+
+
+        </div>
+        <div class="line">
+            <button onclick="addVal(4)">4</button>
+            <button onclick="addVal(5)">5</button>
+            <button onclick="addVal(6)">6</button>
+            <button class="opratore" onclick="opr('*')">X</button>
+
+        </div>
+        <div class="line">
+            <button onclick="addVal(1)">1</button>
+            <button onclick="addVal(2)">2</button>
+            <button onclick="addVal(3)">3</button>
+            <button class="opratore" onclick="opr('-')"><i class="fa-solid fa-minus"></i></button>
+
+
+
+
+        </div>
+        <div class="line">
+            <button onclick="opr('.')">.</button>
+            <button class="zero" onclick="addVal(0)">0</button>
+            <button onclick="calculate()"><i class="fa-solid fa-equals"></i></button>
+            <button class="opratore" onclick="opr('+')"><i class="fa-solid fa-plus"></i></button>
+
+
+        </div>
+       </dev>
+
+    </div>
+    <section class="git">
+       <p>
+        Programmed By :
+       </p> <a href="https://github.com/Mr-Haji" target="_blank"><img src="./s-01-01-removebg-preview.png"
+                width="100px" alt="pic"></a>
+    </section>
+   </section>
+
+
+
+   
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

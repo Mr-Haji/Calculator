@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.section {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0%;
+  margin: 0%;
+  background-color: #000000;
+  /* text-align: center; */
+}
+.main {
+  /* margin: auto; */
+  border: 5px solid #62ff77;
+  border-radius: 25px;
+  background: #000000;
+  width: fit-content;
+  padding: 2px;
+  font-size: 24px;
+  box-shadow: 0px 0px 6px #ffffff;
+}
+
+.inpDev {
+  /* height: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inp {
+  padding: 5px;
+  width: 250px;
+  height: 120px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #000000a6;
+  color: #ffd900;
+  font-size: 30px;
+  border: 2px solid #62ff77;
+}
+
+.zero {
+  color: #ffd900 !important;
+}
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 5px;
+  text-size-adjust: 10px; */
+}
+.line button {
+  margin: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #62ff77;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.line :hover {
+  box-shadow: 0px 0px 6px #62ff77;
+}
+
+.equal {
+  color: #62ff77 !important;
+}
+.opratore {
+  color: aqua !important;
+}
+
+.git p {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+}
